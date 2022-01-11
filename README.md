@@ -57,7 +57,7 @@ https://devcenter.heroku.com/articles/free-dyno-hours#usage
 
 安卓客户端：
 
-安卓 [goproxy-ss-plugin](https://github.com/snail007/goproxy-ss-plugin-android) 插件配置可以写：
+安卓 [goproxy-ss-plugin](https://github.com/fgdx/goproxy-ss-plugin-android) 插件配置可以写：
 
 ```text
 主机：test1-goproxy.herokuapp.com
@@ -83,13 +83,13 @@ https://devcenter.heroku.com/articles/free-dyno-hours#usage
 
 一、在github上fork该项目并修改相关参数
 
-（1）fork项目：https://github.com/snail007/goproxy-heroku
+（1）fork项目：https://github.com/fgdx/goproxy-heroku
 
 （2）修改配置参数，具体就是修改bootstrap里的内容，点击该文件
 
 <img src="/doc/2.1.png" width="500px" height="auto">
 
-修改第7行内容，详细参考：https://snail007.github.io/goproxy/posts/http_cdn_ws/
+修改第7行内容，详细参考：https://fgdx.github.io/goproxy/posts/http_cdn_ws/
 
 二、在heroku上部署
 
@@ -98,7 +98,7 @@ https://devcenter.heroku.com/articles/free-dyno-hours#usage
 2、选择New -> Create new app
 
 <img src="/doc/2.2.png" width="500px" height="auto">
-
+ n0,--
 3、执行以下三个步骤，见下图：
 
 （1）输入App name.例如`test2-goproxy`
@@ -133,7 +133,7 @@ https://devcenter.heroku.com/articles/free-dyno-hours#usage
 
 安卓客户端：
 
-安卓 [goproxy-ss-plugin](https://github.com/snail007/goproxy-ss-plugin-android) 插件配置可以写：
+安卓 [goproxy-ss-plugin](https://github.com/fgdx/goproxy-ss-plugin-android) 插件配置可以写：
 
 ```text
 主机：test2-goproxy.herokuapp.com
